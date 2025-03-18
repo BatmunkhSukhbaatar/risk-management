@@ -138,7 +138,7 @@ export default function Home() {
               Халдварт өвчний талаар
             </h2>
             <p className="text-lg md:text-xl text-gray-700 mb-6 leading-relaxed text-justify">
-              "Хүн, мал амьтны гоц халдварт өвчин" гэж олон улсын хил хязгаараас үл хамааран богино хугацаанд хурдан тархаж хүн, малын эрүүл мэндэд хохирол учруулж, үндэсний аюулгүй байдалд сөргөөр нөлөөлөх халдварт өвчнийг хэлнэ.
+              &quot;Хүн, мал амьтны гоц халдварт өвчин&quot; гэж олон улсын хил хязгаараас үл хамааран богино хугацаанд хурдан тархаж хүн, малын эрүүл мэндэд хохирол учруулж, үндэсний аюулгүй байдалд сөргөөр нөлөөлөх халдварт өвчнийг хэлнэ.
               Тухайлбал түгээмэл тархсан малын гоц халдварт өвчин болох бруцеллёз, шүлхий зэрэг нь эрүүл мэнд, эдийн засагт томоохон хямрал үүсгэдэг бөгөөд мал аж ахуй нь Монголын эдийн засгийн тулгуур баганын нэг юм.
             </p>
             <div className="relative w-full h-72 md:h-96 rounded-xl overflow-hidden shadow-md">
@@ -325,12 +325,19 @@ export default function Home() {
         <section id="quote" className="py-12 sm:py-20 px-4 sm:px-6 bg-gradient-to-r from-gray-50 to-teal-50">
           <div className="max-w-4xl mx-auto flex items-center">
             <div className="mr-6">
-              <img src="/images/MUST-logo.png" alt="Logo" className="h-12 sm:h-16" />
+              <Image 
+                src="/images/MUST-logo.png" 
+                alt="Logo" 
+                width={64}  
+                height={48}
+                className="h-12 sm:h-16" 
+                priority
+              />
             </div>
 
             <div>
               <blockquote className="text-lg sm:text-xl md:text-2xl text-gray-700 italic">
-                "Хүн бүр эрүүл, аюулгүй байх болтугай."
+                &quot;Хүн бүр эрүүл, аюулгүй байх болтугай.&quot;
               </blockquote>
 
               <p className="text-base sm:text-lg md:text-xl text-gray-800 mt-2">ШУТИС МХТС-ийн оюутнуудаас...</p>
