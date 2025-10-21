@@ -75,7 +75,7 @@ export default function Home() {
               title="Home"
               onClick={(e) => handleNavClick(e, "#hero")}
             >
-              🏠 Нүүр
+              Нүүр
             </a>
             <a
               href="#understanding"
@@ -83,7 +83,7 @@ export default function Home() {
               title="Understanding"
               onClick={(e) => handleNavClick(e, "#understanding")}
             >
-              ℹ️ Ойлголт
+              Ойлголт
             </a>
             <a
               href="#prevention"
@@ -91,7 +91,7 @@ export default function Home() {
               title="Prevention"
               onClick={(e) => handleNavClick(e, "#prevention")}
             >
-              🛡️ Урьдчилан Сэргийлэх
+              Урьдчилан Сэргийлэх
             </a>
             <a
               href="#actions"
@@ -99,7 +99,7 @@ export default function Home() {
               title="Actions"
               onClick={(e) => handleNavClick(e, "#actions")}
             >
-              🚀 Авах арга хэмжээ
+              Авах арга хэмжээ
             </a>
           </nav>
         </div>
